@@ -529,6 +529,7 @@ mod tests {
             render_conf(&ConfInputs {
                 release: "6.1.145-android14-11-maybe-dirty",
                 phys: None,
+                phys_offset: None,
                 symbols: &symbols,
                 structs: &structs,
                 route: Some("select_stack"),
